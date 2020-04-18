@@ -1,0 +1,23 @@
+.sidebarContainer {
+  flex-grow: 1;
+  background-color: #3f3f3f;
+  min-height: 100vh;
+}
+
+.sidebarNavigationLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  font: bold 1.2rem Arial;
+  display: block;
+  text-decoration: none;
+  background-color: #4f4f4f;
+  color: #6f6f6f;
+  padding: 0.5rem 1.2rem;
+}
+
+.button:hover {
+  color: #f3f3f3;
+}

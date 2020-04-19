@@ -54,7 +54,7 @@ class Login extends Component {
                 <div className='forgotPasswordLink'>
                   <a href='#'>Forgot Password?</a>
                 </div>
-                <button type="submit" onClick={this.handleSubmit}>Login</button>
+                <button type="submit" onClick={this.handleSubmit}>Login User</button>
               </div>
               </div>
             </form>

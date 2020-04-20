@@ -14,7 +14,7 @@ const AppRouter = () => (
       <Switch>
         <Route path="/" component={Dashboard} exact={true} />
         <Route path="/login" component={Login} />
-        <Route path="/signup" component={AddUser} />
+        <Route path="/addUser" component={AddUser} />
       </Switch>
     </div>
   </BrowserRouter>

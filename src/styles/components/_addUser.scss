@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 .signupFieldsContainer{
     width: 445px;
     margin: 7% auto;
@@ -71,6 +73,11 @@ input:focus {
     display: flex;
     justify-content: center;
 }
+
+input:focus,
+    button {
+      outline: none;
+    }
 
 .admin label,
 .student label,

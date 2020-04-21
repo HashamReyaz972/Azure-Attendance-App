@@ -1,23 +1,34 @@
 .sidebarContainer {
   flex-grow: 1;
-  background-color: #3f3f3f;
+  background: linear-gradient(to bottom, #6a3093, #a044ff);
   min-height: 100vh;
 }
 
 .sidebarNavigationLinks {
   display: flex;
   flex-direction: column;
+  text-align: right;
 }
 
 .button {
-  font: bold 1.2rem Arial;
+  font: bold 1.5rem Arial;
   display: block;
   text-decoration: none;
-  background-color: #4f4f4f;
-  color: #6f6f6f;
-  padding: 0.5rem 1.2rem;
+  color:grey;
+  opacity: 1;
+  padding: 15px 1.2rem;
+  border-bottom: 2.5px solid #ec38bc;
+  outline: none;
+  transition: all 450ms ease-out ;
+}
+.home,
+.login,
+.about{
+  padding: 10px 0px;
 }
 
 .button:hover {
   color: #f3f3f3;
+  position: relative;
+  top: -8px;
 }

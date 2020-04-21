@@ -38,6 +38,12 @@
     border-bottom: 2px solid #c3c3c3;
     transition: border-bottom 1s;
 }
+.formWrapper p{
+    color: red;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
 input:focus {
     border-bottom: 2px solid #000;
   }
